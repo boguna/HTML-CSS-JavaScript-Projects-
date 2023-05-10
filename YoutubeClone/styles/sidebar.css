@@ -1,0 +1,37 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 56px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*za horizontalno centrirane */
+  align-items: center; /*za vertikalno centrirane */
+  margin-bottom: 1px;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(240, 239, 239);
+  cursor: pointer;
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-size: 10px;
+}
+
+.sidebar-link .youtube-music-conteiner {
+  white-space: nowrap;
+}
